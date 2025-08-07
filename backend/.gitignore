@@ -11,3 +11,6 @@ logs
 # Build files
 dist/
 build/
+
+# HTTP Requests
+requests.http
