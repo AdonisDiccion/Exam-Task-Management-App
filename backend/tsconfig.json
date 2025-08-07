@@ -1,0 +1,36 @@
+{
+  // Compiler options tell TypeScript how to compile your code
+  "compilerOptions": {
+    /* ===== OUTPUT SETTINGS ===== */
+    // Where compiled JavaScript files will go
+    "outDir": "./dist",
+    // Where your source TypeScript files are located
+    "rootDir": "./src",
+
+    /* ===== MODULE SETTINGS ===== */
+    // Target modern JavaScript features (Node 14+ is ES2020)
+    "target": "ES2020",
+    // Use CommonJS module system (required for Node/Express)
+    "module": "commonjs",
+    // Allow default imports from modules without needing `.default`
+    "esModuleInterop": true,
+    // How modules are resolved (Node-style)
+    "moduleResolution": "node",
+    // Allow importing .json files
+    "resolveJsonModule": true,
+
+    /* ===== TYPE-CHECKING ===== */
+    // Enable strict type checking
+    "strict": true,
+    // Skip type checking for libraries in node_modules
+    "skipLibCheck": true,
+
+    /* ===== DEBUGGING ===== */
+    // Generate source maps for easier debugging
+    "sourceMap": true,
+
+    /* ===== DECLARATION FILES ===== */
+    // We don’t need `.d.ts` files for this project
+    "declaration": false
+  }
+}
